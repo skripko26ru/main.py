@@ -29,7 +29,7 @@ attr = driver.switch_to.active_element.get_attribute("title")
 print(attr)
 
 driver.get('https://www.example.com')
-
+# ffffff
 
 cssValue = driver.find_element(By.LINK_TEXT, "More information...").value_of_css_property('color')
 print(cssValue)
